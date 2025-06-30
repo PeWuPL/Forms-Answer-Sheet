@@ -1,7 +1,8 @@
 # Forms-Answer-Sheet
 Script for adding a proposed answer to the question in Google/Microsoft Forms.  
 
-![obraz](https://github.com/user-attachments/assets/088b078b-46dc-4766-a917-fb4935d1d953)
+![obraz](https://github.com/user-attachments/assets/ff73c5f9-f316-49cc-ab90-bd9c330fef8f)
+
 
 # How to use
 Inside the repository, are three files:  
