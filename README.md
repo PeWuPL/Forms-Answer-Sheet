@@ -17,3 +17,5 @@ Alternatively, open `FAS.user.js` raw, on Github, and Tampermonkey should care f
   - Create in your browser a bookmark.
   - Paste the contents of the `FAS.bookmarklet.txt` into an address bar of the bookmark.
   - Done. Clicking it should inject the code into the website and after a short while show the answers.
+# Modification
+You can freely modify the base and userscript form, since bookmarklet is encoded in URI, so the readability is close to zero.
