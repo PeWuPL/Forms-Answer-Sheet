@@ -3,7 +3,7 @@
 // @version      2025-06-29
 // @description  Fuck TD!
 // @author       PeWu
-// @match        https://forms.office.com/pages/*
+// @match        *://*/*
 // @grant        none
 // ==/UserScript==
 (function() {
