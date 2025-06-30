@@ -1636,7 +1636,10 @@ let scriptStart = () => {
         }
 
         // Apply the answer to the question title, with some transparency.
-        form.children[i].querySelector(insertedAnswerSelector).innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;<small style='color:"+ANSWER_COLOR+"'>("+proposedAnswers+")</small>";
+        //form.children[i].querySelector(insertedAnswerSelector).innerHTML += "&nbsp;&nbsp;&nbsp;&nbsp;<small style='color:"+ANSWER_COLOR+"'>("+proposedAnswers+")</small>";
+        let answerSpan = document.createElement('span');
+        answerSpan.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<small style='color:"+ANSWER_COLOR+"'>("+proposedAnswers+")</small>"
+        form.children[i].querySelector('[id^="QuestionId_"]').appendChild(answerSpan);
     }
 }
 setTimeout(scriptStart,SCRIPT_START_DELAY)
